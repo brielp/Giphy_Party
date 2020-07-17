@@ -12,7 +12,7 @@ form.addEventListener('submit', function(e) {
 });
 
 async function getGif(api_key, q) {
-	const res = await axios.get('http://api.giphy.com/v1/gifs/search', { params: { api_key, q } });
+	const res = await axios.get('https://api.giphy.com/v1/gifs/search', { params: { api_key, q } });
 	const url = res.data.data[0].images.original.url;
 	appendPage(url);
 }
