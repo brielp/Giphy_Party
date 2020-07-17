@@ -1,0 +1,37 @@
+* {
+	font-family: cursive, Helvetica, sans-serif;
+}
+
+body {
+	background-color: paleturquoise;
+}
+
+#search_form {
+	display: inline-block;
+}
+
+#search {
+	max-width: 200px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+button {
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+#header {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gifs {
+	margin: 20px;
+}
+
+img {
+	max-width: 300px;
+	margin: 15px;
+}
